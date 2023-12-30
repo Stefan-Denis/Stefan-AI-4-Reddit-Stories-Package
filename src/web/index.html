@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stefan AI 4 - Reddit Stories</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <script src="bootstrap/bootstrap.min.js" defer></script>
+
+    <!-- Custom -->
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+
+<body data-bs-theme="dark">
+    <div class="">
+        <div class="header glass">
+            <h1>Stefan AI 4 - Reddit Stories Creator</h1>
+        </div>
+        <div class="content">
+            <div class="input glass">
+                <div class="titlebar mb-2">
+                    <div class="circle image-green-titlebar-button" style="background-color: rgb(0, 181, 0);"></div>
+                    <div class="circle reset-position" style="background-color: rgba(255, 255, 0, 0.750);"></div>
+                    <div class="circle move-window" style="background-color: rgb(255, 0, 0);" draggable="true"></div>
+                    <p>Image</p>
+                </div>
+                <div id="image-container"></div>
+                <label for="text">Enter the title of the story here:</label>
+                <input type="text" class='glass' id='image-title'>
+                <p>Scroll to see the rest of the input</p>
+                <div class="img-control-panel">
+                    <button class="glass" id="submit-image">Change Image</button>
+                    <button class="glass" id="remove-image">Remove Image</button>
+                </div>
+            </div>
+            <div class="input glass">
+                <div class="titlebar">
+                    <div class="circle start-production" style="background-color: rgb(0, 181, 0);"></div>
+                    <div class="circle reset-position" style="background-color: rgba(255, 255, 0, 0.750);"></div>
+                    <div class="circle move-window" style="background-color: rgb(255, 0, 0);" draggable="true"></div>
+                    <p>Start</p>
+                </div>
+                <div class="start-container">
+                    <button class="btn btn-outline-success start-production">Start Production</button>
+                </div>
+            </div>
+            <div class="input glass">
+                <div class="titlebar">
+                    <div class="circle submit-story" style="background-color: rgb(0, 181, 0);"></div>
+                    <div class="circle reset-position" style="background-color: rgba(255, 255, 0, 0.750);"></div>
+                    <div class="circle move-window" style="background-color: rgb(255, 0, 0);" draggable="true"></div>
+                    <p>Story</p>
+                </div>
+                <textarea id="textarea" class="bg-dark text-white story-textarea glass" id="story-textarea"
+                    placeholder=""></textarea>
+            </div>
+        </div>
+    </div>
+</body>
+
+<!-- Hidden Elements-->
+<div style="display: none;">
+    <input type="file" id="image" accept=".png">
+</div>
+
+</html>

@@ -1,0 +1,199 @@
+/* Global */
+@font-face {
+    font-family: 'Mercedes-Benz';
+    src: url('static/Mercedes-Benz.ttf');
+}
+
+* {
+    font-family: 'Mercedes-Benz';
+    color-scheme: dark;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(40, 167, 69, 0.42);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.75);
+    cursor: pointer !important;
+}
+
+body {
+    background-color: black;
+    color: white;
+    background-image: url('static/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    user-select: none;
+}
+
+.glass {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(0, 0, 0, 0.42);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+/* Styles */
+.header {
+    margin: 10px 40px;
+    width: 700px;
+    border-radius: 6px;
+    padding: 10px;
+    text-align: center;
+}
+
+.input {
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 6px;
+    min-width: 400px;
+    width: 500px;
+    max-width: calc(100vw - 100px);
+    min-height: 300px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    resize: horizontal;
+    overflow: auto;
+}
+
+.input:nth-of-type(1) {
+    min-height: auto;
+    display: block;
+}
+
+.input>input {
+    margin-top: 10px;
+    border: 0px;
+    border-radius: 6px !important;
+    outline: none;
+    margin-left: 10px;
+    background-color: transparent !important;
+}
+
+.input img {
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+}
+
+.input p {
+    margin: 0;
+    color: gray;
+    margin-left: 10px;
+}
+
+.img-control-panel {
+    width: 300px;
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.img-control-panel button {
+    width: 150px;
+    height: 50px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    transition: all 0.1s ease-in-out;
+    margin-right: 10px;
+    outline: none;
+}
+
+.img-control-panel button:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.img-control-panel button:active {
+    transform: scale(0.95);
+}
+
+.story-textarea {
+    resize: none !important;
+    outline: none;
+    width: 100%;
+    height: 280px;
+    border-radius: 6px;
+    background-color: transparent !important;
+    border: none;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+    padding-left: 5px;
+    margin-top: 10px;
+}
+
+.circle {
+    margin-top: 5px;
+    margin-right: 7px;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+}
+
+.titlebar {
+    display: flex;
+    margin-left: 10px;
+}
+
+.start-container {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notification {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    padding: 15px;
+    font-size: larger;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+    animation: scaleUp 0.3s ease-in-out;
+}
+
+@keyframes scaleUp {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes scaleDown {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(0);
+    }
+}
+
+.notification.remove {
+    animation: scaleDown 0.3s ease-in-out forwards;
+}

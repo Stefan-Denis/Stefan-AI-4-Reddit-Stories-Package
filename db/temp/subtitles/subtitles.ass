@@ -1,0 +1,35 @@
+[Script Info]
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,100,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,2,2,5,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,00:00:03.50,00:00:03.90,Default,,0,0,0,,{\t(0,100,\fscx105\fscy105)\t(100,200,\fscx100\fscy100)} 
+Dialogue: 0,00:00:03.90,00:00:04.01,Default,,0,0,0,,{\t(0,100,\fscx105\fscy105)\t(100,200,\fscx100\fscy100)}i 
+Dialogue: 0,00:00:04.01,00:00:04.46,Default,,0,0,0,,{\t(0,100,\fscx105\fscy105)\t(100,200,\fscx100\fscy100)}remember 
+Dialogue: 0,00:00:04.46,00:00:04.75,Default,,0,0,0,,{\t(0,100,\fscx105\fscy105)\t(100,200,\fscx100\fscy100)}once 
+Dialogue: 0,00:00:04.75,00:00:04.85,Default,,0,0,0,,{\t(0,100,\fscx105\fscy105)\t(100,200,\fscx100\fscy100)}i 
+Dialogue: 0,00:00:04.85,00:00:05.06,Default,,0,0,0,,{\t(0,100,\fscx105\fscy105)\t(100,200,\fscx100\fscy100)}had 
+Dialogue: 0,00:00:05.06,00:00:05.13,Default,,0,0,0,,{\t(0,100,\fscx105\fscy105)\t(100,200,\fscx100\fscy100)}to 
+Dialogue: 0,00:00:05.13,00:00:05.29,Default,,0,0,0,,{\t(0,100,\fscx105\fscy105)\t(100,200,\fscx100\fscy100)}go 
+Dialogue: 0,00:00:05.29,00:00:05.37,Default,,0,0,0,,{\t(0,100,\fscx105\fscy105)\t(100,200,\fscx100\fscy100)}to 
+Dialogue: 0,00:00:05.37,00:00:05.47,Default,,0,0,0,,{\t(0,100,\fscx105\fscy105)\t(100,200,\fscx100\fscy100)}the 
+Dialogue: 0,00:00:05.47,00:00:06.03,Default,,0,0,0,,{\t(0,100,\fscx105\fscy105)\t(100,200,\fscx100\fscy100)}store 
+Dialogue: 0,00:00:06.03,00:00:06.06,Default,,0,0,0,,{\t(0,100,\fscx105\fscy105)\t(100,200,\fscx100\fscy100)} 
+Dialogue: 0,00:00:06.06,00:00:06.22,Default,,0,0,0,,{\t(0,100,\fscx105\fscy105)\t(100,200,\fscx100\fscy100)}and 
+Dialogue: 0,00:00:06.22,00:00:06.32,Default,,0,0,0,,{\t(0,100,\fscx105\fscy105)\t(100,200,\fscx100\fscy100)}i 
+Dialogue: 0,00:00:06.32,00:00:06.63,Default,,0,0,0,,{\t(0,100,\fscx105\fscy105)\t(100,200,\fscx100\fscy100)}found 
+Dialogue: 0,00:00:06.63,00:00:06.67,Default,,0,0,0,,{\t(0,100,\fscx105\fscy105)\t(100,200,\fscx100\fscy100)}a 
+Dialogue: 0,00:00:06.67,00:00:07.26,Default,,0,0,0,,{\t(0,100,\fscx105\fscy105)\t(100,200,\fscx100\fscy100)}100 
+Dialogue: 0,00:00:07.26,00:00:07.53,Default,,0,0,0,,{\t(0,100,\fscx105\fscy105)\t(100,200,\fscx100\fscy100)}euro 
+Dialogue: 0,00:00:07.53,00:00:07.85,Default,,0,0,0,,{\t(0,100,\fscx105\fscy105)\t(100,200,\fscx100\fscy100)}bill 
+Dialogue: 0,00:00:07.85,00:00:08.00,Default,,0,0,0,,{\t(0,100,\fscx105\fscy105)\t(100,200,\fscx100\fscy100)}on 
+Dialogue: 0,00:00:08.00,00:00:08.05,Default,,0,0,0,,{\t(0,100,\fscx105\fscy105)\t(100,200,\fscx100\fscy100)}the 
+Dialogue: 0,00:00:08.05,00:00:08.47,Default,,0,0,0,,{\t(0,100,\fscx105\fscy105)\t(100,200,\fscx100\fscy100)}floor 
+Dialogue: 0,00:00:08.47,00:00:09.21,Default,,0,0,0,,{\t(0,100,\fscx105\fscy105)\t(100,200,\fscx100\fscy100)} 

@@ -1,0 +1,1 @@
+Start-Process -FilePath "cmd" -ArgumentList "/c", "powershell.exe -File cli/start.ps1" -Wait
